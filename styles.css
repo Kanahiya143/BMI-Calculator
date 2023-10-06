@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+  color: black;
+  background-color: grey;
+}
+
+.head {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+form,
+.guide {
+  margin: 10vw;
+}
+
+#results{
+  color: red;
+  height: 10vh;
+  font-size: smaller;
+}
+
+button{
+  width: 30vh;
+  height: 8vh;
+  border-radius: 2vh;
+}
