@@ -18,9 +18,11 @@ h1 {
   font-size: 1.5rem;
 }
 
-form,
-.guide {
-  margin-left: 10vw;
+.container,
+.guide h1,
+.guide li {
+  display: flex;
+  justify-content: center;
 }
 
 #results{
@@ -33,4 +35,9 @@ button{
   width: 30vh;
   height: 8vh;
   border-radius: 2vh;
+  margin-left: 10vw;
+}
+
+form p label{
+  width: 100vw;
 }
