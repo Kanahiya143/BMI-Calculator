@@ -19,8 +19,7 @@ h1 {
 }
 
 .container,
-.guide h1,
-.guide li {
+.guide {
   display: flex;
   justify-content: center;
 }
